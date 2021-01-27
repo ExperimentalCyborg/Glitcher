@@ -24,7 +24,7 @@ def perr(msg, err):
     :param msg: Message
     :param err: Exception object
     """
-    print('{}: {}: {}'.format(msg, type(err).__name__, err))
+    print('{}: {}: {}'.format(msg, type(err).__name__, err))  # TODO update file to use f strings and other new language features
 
 
 def clean_path(path):
